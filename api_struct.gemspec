@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'dry-monads', '~> 1'
-  spec.add_dependency 'dry-configurable'
+  spec.add_dependency 'dry-configurable', '~> 0.16'
   spec.add_dependency 'dry-inflector'
   spec.add_dependency 'http'
   spec.add_dependency 'hashie'
