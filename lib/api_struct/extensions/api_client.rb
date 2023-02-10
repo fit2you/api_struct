@@ -1,7 +1,7 @@
 module ApiStruct
   module Extensions
     module ApiClient
-      include Concerns::Underscore
+      include ::Concerns::Underscore
 
       REJECTED_METHODS = %i[api_root default_path headers]
 
